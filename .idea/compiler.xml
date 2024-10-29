@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="class01-serverlet" />
+        <module name="class05-ajax-axios" />
+        <module name="class06-filter-listener" />
+        <module name="class04-cookiesession" />
+        <module name="brand-list" />
+        <module name="class02-request" />
+        <module name="bookonline" />
+        <module name="class03-response" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_STRING" value="-encoding utf-8" />
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="bookonline" options="" />
+      <module name="brand-list" options="" />
+      <module name="class01-serverlet" options="" />
+      <module name="class02-request" options="" />
+      <module name="class03-response" options="" />
+      <module name="class04-cookiesession" options="" />
+      <module name="class05-ajax-axios" options="" />
+      <module name="class06-filter-listener" options="" />
+    </option>
+  </component>
+</project>
